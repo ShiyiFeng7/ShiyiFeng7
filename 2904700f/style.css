@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+h1 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #2dc4b2;
+}
+
+#console {
+  position: absolute;
+  width: 435px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.session {
+  margin-bottom: 20px;
+}
+
+.row {
+  height: 12px;
+  width: 100%;
+}
+#console {
+ position: absolute;
+ width: 400px;
+ margin: 20px;
+ padding: 10px 20px;
+ background-color: white;
+ color: 80,80,80;
+ border-radius: 0px;
+ font-family: Lato, sans-serif;
+}
+.session {
+ margin-bottom: 20px;
+}
+.row {
+ height: 12px;
+ width: 100%;
+}
+/* Style for heading in pop-up window */
+h3 {
+  border-top: 15px blue;
+  font-family: Lato, sans-serif;
+  font-size:16px;
+}
+
+/* Style for paragraph in pop-up window */
+p {
+  font-size: 14px;
+  font-family: Lato, sans-serif;
+  color: black; 
+}
+
+/* Style for pop-up window */
+.my-popup .mapboxgl-popup-content {
+  width: 200px;
+  background: rgba(222, 184, 135, 0.9); /* red, green, blue, and alpha */
+  border-top: 25px black;
+  padding: 0px 20px;
+  color: rgb(50,50,50);
+  border-radius: 10px;
+}
+/* Style for legend */
+
+#legend {
+ text-align: left; 
+ position: fixed;
+ bottom: 20px; 
+ left: 0px; 
+ width: 175px;
+ margin: 20px;
+ padding: 0px 20px;
+ background-color: white;
+ color: 80,80,80;
+ border-radius: 0px;
+ font-family: Lato, sans-serif;
+}

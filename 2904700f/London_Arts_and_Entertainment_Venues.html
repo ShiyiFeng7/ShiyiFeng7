@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - London Arts &amp; Entertainment Venues</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8' />
+  <title>Toggle layers</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.min.js'></script>
+  <link rel='stylesheet' href='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.7.0/mapbox-gl-geocoder.css' type='text/css' />
+  <!-- Mapbox JS API !-->
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.js'></script>
+  <!-- Mapbox CSS!-->
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v2.9.2/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+<div id='map'></div>
+<div id='console'>
+  <h1>London Arts & Entertainment Venues</h1>
+  <p>Data: <a href='https://data.london.gov.uk/dataset/cultural-infrastructure-map'>cultural-infrastructure-map </a> in City of London, 2019</p>
+
+<!–– Checkbox buttons go below––>
+ <div class='session'>
+ <h2></h2>
+ <div class='row' id='filters'>
+ <input id='Cinemas' type='checkbox' name='Atoggle' value='Cinemas' checked='checked'>
+ <label for='Cinemas'>Cinemas</label>
+ <input id='Theatre' type='checkbox' name='Btoggle' value='Theatre' checked='checked'>
+ <label for='Theatre'>Theatre</label>
+ <input id='Commercial galleries' type='checkbox' name='Ctoggle' value='Commercial galleries' checked='checked'>
+ <label for='Commercial galleries'>Commercial galleries</label>
+ </div>
+</div> 
+ </div> 
+  
+<div id='legend'>
+  <h1><span style="font-size:18px">Legend</span></h1>
+  <h2><span style="color:#e41a1c">• </span>Cinemas</h2>
+  <h2><span style="color:#377eb8">• </span>Theatre</h2>
+  <h2><span style="color:#4daf4a">• </span>Commercial galleries</h2>
+  </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
